@@ -1,2 +1,2 @@
 FROM httpd
-COPY index.html /usr/share/nginx/html/
+COPY . /usr/local/apache2/htdocs/
